@@ -122,9 +122,6 @@ pm2 startup
 sudo systemctl enable pm2-root
 sudo pm2 save
 ```
-### hit public ip you will get this responce 
-#### Dashboard
-![Dashboard](./frontend/public/ss/dashboard.png)
 
 ### add the autors and books 
                                                    thank you 
