@@ -86,7 +86,7 @@ sudo yum install mariadb105-server -y
 ```
 #### Clone repository
 ```
-git clone https://github.com/CloudTechDevOps/fullstack-autors-books-application.git
+git clone https://github.com/simonxox/fullstack-autors-books-application.git
 ```
 ### Switch to backend
 ```
@@ -111,13 +111,13 @@ module.exports = db;
 ### Initilize the database 
 ```
 mysql -h <rdsendpoint> -u admin -p<rdspassword> < db.sql
-mysql -h database-1.cj6qigogwls0.us-east-1.rds.amazonaws.com -u admin -pveeradon < db.sql
+mysql -h database-1.cj6qigogwls0.us-east-1.rds.amazonaws.com -u admin -psimon123 < db.sql
 
 ```
 ### Everything is completed run the follwing commnds for backend execution
 ```
 npm install
-pm2 start server.js --name "veera"
+pm2 start server.js --name "simon"
 pm2 startup
 sudo systemctl enable pm2-root
 sudo pm2 save
